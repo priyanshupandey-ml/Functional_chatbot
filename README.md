@@ -1,6 +1,6 @@
-# 🤖 Advanced ChatGPT-Like Chatbot using LangGraph
+#  Advanced ChatGPT-Like Chatbot using LangGraph
 
-## 📌 Project Overview
+##  Project Overview
 
 This project is an advanced AI chatbot built using **LangGraph**, **LangChain**, **Streamlit**, and **SQLite**. The goal of this project was to understand how production-level conversational AI systems such as ChatGPT manage conversations, persist chat history, resume old sessions, and maintain user-specific threads.
 
@@ -8,7 +8,7 @@ Through this project, I learned the complete workflow of designing and implement
 
 ---
 
-# 🚀 Features
+#  Features
 
 * ChatGPT-like user interface using Streamlit
 * Conversation persistence using SQLite
@@ -24,7 +24,7 @@ Through this project, I learned the complete workflow of designing and implement
 
 ---
 
-# 📚 Concepts Learned
+# 📚 Concepts Learned while building this project 
 
 ## 1. LangGraph Fundamentals
 
@@ -86,7 +86,7 @@ Compilation converts the graph into an executable workflow.
 
 ---
 
-# 2. Persistence in LangGraph
+# 2. Concept of Persistence in LangGraph
 
 One of the most important concepts learned was Persistence.
 
@@ -132,6 +132,7 @@ thread_id = str(uuid.uuid4())
 ```
 
 Each thread maintains its own conversation history.
+In python we use uuid to generate unique random values each time .
 
 Benefits:
 
@@ -368,45 +369,45 @@ SQLite Database
 
 ---
 
-# 🎯 Key Outcomes
+# Key Outcomes
 
 Through this project, I learned:
 
-✅ LangGraph Fundamentals
+ LangGraph Fundamentals
 
-✅ States
+ States
 
-✅ Nodes
+ Nodes
 
-✅ Edges
+ Edges
 
-✅ Graph Compilation
+ Graph Compilation
 
-✅ Persistence
+ Persistence
 
-✅ Checkpointers
+ Checkpointers
 
-✅ Thread Management
+ Thread Management
 
-✅ SQLite Integration
+ SQLite Integration
 
-✅ Database Connection Handling
+ Database Connection Handling
 
-✅ Streamlit Session State
+ Streamlit Session State
 
-✅ Chat History Management
+ Chat History Management
 
-✅ Dynamic Chat Titles
+ Dynamic Chat Titles
 
-✅ ChatGPT-like UI Design
+ ChatGPT-like UI Design
 
-✅ Conversation Restoration
+ Conversation Restoration
 
-✅ LangChain Message Handling
+ LangChain Message Handling
 
 ---
 
-# 🛠 Tech Stack
+#  Tech Stack
 
 * Python
 * LangGraph
@@ -418,7 +419,7 @@ Through this project, I learned:
 
 ---
 
-# 📈 Future Enhancements
+#  Future Enhancements
 
 * PostgreSQL Integration
 * User Authentication
@@ -432,7 +433,7 @@ Through this project, I learned:
 
 ---
 
-# 👨‍💻 Author
+#  Author
 
 **Priyanshu Pandey**
 
