@@ -33,9 +33,6 @@ def chat_node(state:ChatState)->ChatState:
 
 conn=sqlite3.connect(database="chatbot_data.db" , check_same_thread=False)
 checkpointer=SqliteSaver(conn=conn)
-cur=conn.cursor()
-cur.execute("DELETE FROM checkpoints")
-conn.commit()
 
 def save_title(thread_id, title):
     conn = sqlite3.connect("chatbot_data.db")
